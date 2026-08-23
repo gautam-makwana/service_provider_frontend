@@ -17,4 +17,4 @@ export const supabase = {
     from: (table: string) => getSupabaseClient().from(table),
 };
 
-export const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'http://localhost:4000';
+export const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || 'https://all-services-backend-sepia.vercel.app';
